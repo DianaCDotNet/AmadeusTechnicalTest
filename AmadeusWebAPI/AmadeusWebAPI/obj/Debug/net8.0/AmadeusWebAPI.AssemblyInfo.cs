@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmadeusWebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e32a8a1c7efb44d19d392220237c3c9935c3c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23eabe99fd0fceafd0384fc13bff116c1c1aa3b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmadeusWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmadeusWebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

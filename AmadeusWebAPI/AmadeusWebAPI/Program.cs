@@ -38,11 +38,13 @@ builder.Services.AddAuthorization(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+var allowOrigin = builder.Configuration.GetValue<string>("AllowOrigin")!.Split(",");
 builder.Services.AddCors(opciones => 
 {
     opciones.AddDefaultPolicy(politic =>
     {
-        politic.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        politic.WithOrigins(allowOrigin).AllowAnyHeader().AllowAnyMethod();
 
     });
 
