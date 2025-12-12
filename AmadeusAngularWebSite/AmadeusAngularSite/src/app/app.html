@@ -1,0 +1,28 @@
+<div >
+  
+    <h1> {{ title() }}</h1>
+    
+    @for (airline of airlines; track $index)
+    {
+      <div>
+        <div>Id: {{airline.id}}</div>
+      </div>
+      <div>
+        <div>Name:{{airline.name}}</div>
+      </div>
+      <div>
+        <div>Nunber Flights Per Day:{{airline.nuberFlightsPerDay}}</div>
+      </div>
+      <div>
+        <div>Origin Country:{{airline.originCountry}}</div>
+      </div>
+      <div>
+        <div>External Identification:{{airline.externalIdentification}}</div>
+      </div>
+      <div>
+        <div>Aditional Information:{{airline.aditionalInformation}}</div>
+      </div>
+    }
+
+
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmadeusWebAPI", "AmadeusWebAPI\AmadeusWebAPI.csproj", "{CC85EDA0-136F-4C76-8367-01770DA045FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmadeusWebAPI.Tests", "AmadeusWebAPI.Tests\AmadeusWebAPI.Tests.csproj", "{9353859A-363C-4763-8B03-269CED094B15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC85EDA0-136F-4C76-8367-01770DA045FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC85EDA0-136F-4C76-8367-01770DA045FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC85EDA0-136F-4C76-8367-01770DA045FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC85EDA0-136F-4C76-8367-01770DA045FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9353859A-363C-4763-8B03-269CED094B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9353859A-363C-4763-8B03-269CED094B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9353859A-363C-4763-8B03-269CED094B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9353859A-363C-4763-8B03-269CED094B15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E5876FA-4725-4AD7-971D-110FB9AE99D2}
+	EndGlobalSection
+EndGlobal
