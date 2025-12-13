@@ -1,0 +1,26 @@
+a{
+margin-left: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+

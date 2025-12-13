@@ -1,0 +1,5 @@
+@if(airlinesList)
+{
+<app-form-airline title="Edit Airline" [airlinesList]="airlinesList" (postForm)="save($event)"></app-form-airline>
+
+}

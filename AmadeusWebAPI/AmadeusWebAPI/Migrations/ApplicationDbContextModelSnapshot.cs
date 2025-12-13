@@ -84,7 +84,7 @@ namespace AmadeusWebAPI.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a004a9e9-e038-4e18-85bf-1e78dd2c719f",
+                            Id = "9211887d-a15b-423f-a093-ea04d748c757",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -182,15 +182,15 @@ namespace AmadeusWebAPI.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b394f7a6-e835-4310-8527-e4849d40294c",
+                            Id = "33ed2096-c680-4948-9d57-645aa652eb31",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "042a47c9-d1bf-4474-9d76-7e65c5b5acfc",
+                            ConcurrencyStamp = "f60901dc-6ce3-41f5-a23b-2d11746f8b09",
                             Email = "admin@AS.com",
                             EmailConfirmed = true,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@AS.COM",
                             NormalizedUserName = "ADMIN@AS.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAELAeIw6PhSrI1VfANegACpGal/+wU3QSn285B+UgCFGv0zGV0RXHN2CW8ARr+JX9uQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAED7IaXXxQI5XAUFA1FjRcj8yIbcb2aojJb1GtJgKubseshRiLYBZshAJst78ErM6Kw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -262,8 +262,8 @@ namespace AmadeusWebAPI.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "b394f7a6-e835-4310-8527-e4849d40294c",
-                            RoleId = "a004a9e9-e038-4e18-85bf-1e78dd2c719f"
+                            UserId = "33ed2096-c680-4948-9d57-645aa652eb31",
+                            RoleId = "9211887d-a15b-423f-a093-ea04d748c757"
                         });
                 });
 

@@ -15,16 +15,16 @@
       "RelativeMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|solutionrelative:amadeuswebapi\\entities\\airline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|c:\\users\\casipc\\desktop\\amadeus technical test dianac\\amadeuswebapi\\amadeuswebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|solutionrelative:amadeuswebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|c:\\users\\casipc\\desktop\\amadeus technical test dianac\\amadeuswebapi\\amadeuswebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|solutionrelative:amadeuswebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|c:\\users\\casipc\\desktop\\amadeus technical test dianac\\amadeuswebapi\\amadeuswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|solutionrelative:amadeuswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|c:\\users\\casipc\\desktop\\amadeus technical test dianac\\amadeuswebapi\\amadeuswebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CC85EDA0-136F-4C76-8367-01770DA045FA}|AmadeusWebAPI\\AmadeusWebAPI.csproj|solutionrelative:amadeuswebapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCkAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T15:26:09.159Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -57,9 +44,10 @@
               "RelativeDocumentMoniker": "AmadeusWebAPI\\Entities\\Airline.cs",
               "ToolTip": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Entities\\Airline.cs",
               "RelativeToolTip": "AmadeusWebAPI\\Entities\\Airline.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T15:20:53.868Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -70,14 +58,27 @@
               "RelativeDocumentMoniker": "AmadeusWebAPI\\Controllers\\AirlinesController.cs",
               "ToolTip": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Controllers\\AirlinesController.cs",
               "RelativeToolTip": "AmadeusWebAPI\\Controllers\\AirlinesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T13:45:19.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AmadeusWebAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T15:26:09.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AmadeusWebAPI\\Properties\\launchSettings.json",
@@ -90,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "AmadeusWebAPI\\appsettings.Development.json",
@@ -103,13 +104,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "AmadeusWebAPI\\Program.cs",
               "ToolTip": "C:\\Users\\CasiPc\\Desktop\\Amadeus Technical Test DianaC\\AmadeusWebAPI\\AmadeusWebAPI\\Program.cs",
               "RelativeToolTip": "AmadeusWebAPI\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwC4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T13:39:50.085Z",
               "EditorCaption": ""

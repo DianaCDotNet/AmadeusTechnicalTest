@@ -1,0 +1,29 @@
+<div class="card-conteiner div-custom">
+
+
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title> Register</mat-card-title>
+
+        </mat-card-header>
+        <mat-card-content>
+            <form class="form-custom" [formGroup]="formRegistrer">
+
+                <mat-form-field class="imput-custom">
+                    <mat-label>Mail</mat-label>
+                    <input matInput formControlName="email" placeholder="Coreo" value="admin@as.com">
+                </mat-form-field>
+
+                <mat-form-field class="imput-custom">
+                    <mat-label>Password</mat-label>
+                    <input matInput formControlName="password" placeholder="" type="password">
+                </mat-form-field>
+
+                <div class="flex">
+                    <button mat-flat-button color="primary" (click)="register()">Login</button>
+                </div>
+            </form>
+        </mat-card-content>
+    </mat-card>
+
+</div>

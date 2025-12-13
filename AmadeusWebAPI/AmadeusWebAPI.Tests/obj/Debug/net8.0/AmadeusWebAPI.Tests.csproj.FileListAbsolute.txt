@@ -182,3 +182,4 @@ C:\Users\CasiPc\Desktop\Amadeus Technical Test DianaC\AmadeusWebAPI\AmadeusWebAP
 C:\Users\CasiPc\Desktop\Amadeus Technical Test DianaC\AmadeusWebAPI\AmadeusWebAPI.Tests\obj\Debug\net8.0\AmadeusWebAPI.Tests.pdb
 C:\Users\CasiPc\Desktop\Amadeus Technical Test DianaC\AmadeusWebAPI\AmadeusWebAPI.Tests\obj\Debug\net8.0\AmadeusWebAPI.Tests.genruntimeconfig.cache
 C:\Users\CasiPc\Desktop\Amadeus Technical Test DianaC\AmadeusWebAPI\AmadeusWebAPI.Tests\obj\Debug\net8.0\ref\AmadeusWebAPI.Tests.dll
+C:\Users\CasiPc\Desktop\Amadeus Technical Test DianaC\AmadeusWebAPI\AmadeusWebAPI.Tests\obj\Debug\net8.0\AmadeusWebAPI.Tests.sourcelink.json

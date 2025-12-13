@@ -1,0 +1,50 @@
+<h2>Airline</h2>
+<button mat-flat-button routerLink="/add-airline" class="p1">Go to add new airline</button>
+<br />
+@if(airlineList){
+<table mat-table [dataSource]="airlineList" class="mat-elevation-z8 AirlineTable">
+
+  <ng-container matColumnDef="Id">
+    <th mat-header-cell *matHeaderCellDef>Id</th>
+    <td mat-cell *matCellDef="let list">{{list.id}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="Name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let list">{{list.name}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="NumberFlightsPerDay">
+    <th mat-header-cell *matHeaderCellDef>Number Flights Per Day</th>
+    <td mat-cell *matCellDef="let list">{{list.numberFlightsPerDay}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="OriginCountry">
+    <th mat-header-cell *matHeaderCellDef>Origin Country</th>
+    <td mat-cell *matCellDef="let list">{{list.originCountry}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="ExternalIdentification">
+    <th mat-header-cell *matHeaderCellDef>External Identification</th>
+    <td mat-cell *matCellDef="let list">{{list.externalIdentification}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="AditionalInformation">
+    <th mat-header-cell *matHeaderCellDef>Aditional Information</th>
+    <td mat-cell *matCellDef="let list">{{list.aditionalInformation}}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="Actions">
+    <th mat-header-cell *matHeaderCellDef>Actions</th>
+    <td mat-cell *matCellDef="let list">
+      <a mat-flat-button routerLink="/edit-airline/{{list.id}}">Edit</a>
+      <button mat-flat-button color="warn" (click)="delete(list.id)">Delete</button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+
+</table>
+}

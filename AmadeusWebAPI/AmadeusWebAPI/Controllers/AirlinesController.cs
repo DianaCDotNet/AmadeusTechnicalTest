@@ -41,12 +41,11 @@ namespace AmadeusWebAPI.Controllers
 
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult> Post(Airline airline)
+        public async Task<IActionResult> Post(Airline airline)
         {
-
             context.Add(airline);
             await context.SaveChangesAsync();
-            return CreatedAtRoute("GetAirline", new { id = airline.Id }, airline);
+            return Ok();
         }
 
         [HttpPut("{id:int}")]

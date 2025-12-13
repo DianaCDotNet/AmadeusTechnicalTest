@@ -4,6 +4,7 @@ namespace AmadeusWebAPI.Entities
 {
     public class Airline
     {
+        [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "The field {0} is required")]

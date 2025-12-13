@@ -40,24 +40,26 @@ builder.Services.AddSwaggerGen();
 
 
 var allowOrigin = builder.Configuration.GetValue<string>("AllowOrigin")!.Split(",");
-builder.Services.AddCors(opciones => 
+builder.Services.AddCors(options =>
 {
-    opciones.AddDefaultPolicy(politic =>
-    {
-        politic.WithOrigins(allowOrigin).AllowAnyHeader().AllowAnyMethod();
-
-    });
-
+    options.AddPolicy("AllowAngularApp",
+        policy =>
+        {
+            policy.WithOrigins(allowOrigin) // origen permitido
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
 });
 
 
 var app = builder.Build();
 
+app.UseCors("AllowAngularApp");
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-app.UseCors();
+
 
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json","API"));

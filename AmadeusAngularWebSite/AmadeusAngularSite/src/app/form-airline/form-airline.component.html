@@ -1,0 +1,28 @@
+<h2>{{title}}</h2>
+<form (submit)="save()" [formGroup]="form">
+    <mat-form-field appearance="outline">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Number Flights Per Day</mat-label>
+        <input matInput type="number" formControlName="numberFlightsPerDay">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Origin Country</mat-label>
+        <input matInput formControlName="originCountry">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>External Identification</mat-label>
+        <input matInput formControlName="externalIdentification">
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Aditional Information</mat-label>
+        <input matInput formControlName="aditionalInformation">
+    </mat-form-field>
+
+    <div>
+        <button type="submit" mat-flat-button>Save</button>
+        <a mat-stroked-button routerLink="/Airline">Cancel</a>
+    </div>
+</form>

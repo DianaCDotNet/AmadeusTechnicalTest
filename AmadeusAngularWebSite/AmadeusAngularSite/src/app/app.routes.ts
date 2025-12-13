@@ -1,8 +1,15 @@
 import { Routes } from '@angular/router';
-import { Login } from './pages/login/login';
-import { AirlineComponent } from './pages/airline/airline';
+import { LoginComponent } from './pages/login/login.component';
+import { AirlineComponent } from './pages/airline/airline.component';
+import { AddAirlineComponent } from './pages/add-airline/add-airline.component';
+import { EditAirlineComponent } from './pages/edit-airline/edit-airline.component';
+import { RegistrerComponent } from './pages/registrer/registrer.component';
 
 export const routes: Routes = [
-    {path:"",component:Login},
-    {path:"Airline",component:AirlineComponent}
+    {path:"",component:LoginComponent},
+    {path:"Airline",component:AirlineComponent},
+    {path:"add-airline", component: AddAirlineComponent},
+    {path:"edit-airline", component: EditAirlineComponent},
+    {path:"register", component: RegistrerComponent},
+    {path:"edit-airline/:id", component: EditAirlineComponent }
 ];
